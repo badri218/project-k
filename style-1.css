@@ -1,0 +1,222 @@
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header Styling */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #8a8989;
+      color: #fff;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #ff6600;
+    }
+    nav ul li button{
+      border-radius: 15px;
+      position: relative;
+      box-shadow:inset;
+      top: -1px;
+      background-color: rgb(67, 114, 175);
+      height: 30px;
+      width: 100px;
+      color: #fff;
+    }
+
+    /* Responsive Styling */
+    @media (max-width: 768px) {
+      nav ul {
+        display: none; /* Hide nav links on smaller screens */
+      }
+      .menu-toggle {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+      }
+    }
+    @media (min-width: 769px) {
+      .menu-toggle {
+        display: none; /* Hide menu toggle on larger screens */
+      }
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 400px;
+        flex-direction: column;
+        background-image: url('drone-img-1.jpg'); 
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding: 20px;
+        color: #fff;
+        background-color: #000;
+    }
+    
+    /* Center text styling */
+    .center-content {
+        text-align: center;
+        max-width: 50%;
+        position: relative;
+        left: 35%;
+    }
+    
+    .center-content h1, .center-content p {
+        margin: 15px 0;
+    }
+    
+    .center-content h1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    
+    .center-content p {
+        font-size: 1.5em;
+    }
+    
+    /* Button styling */
+    .button-container {
+        margin-top: 20px;
+    }
+    
+    .button {
+        background-color: #000;
+        color: #fff;
+        padding: 15px 30px;
+        margin: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s ease;
+    }
+    
+    .button:hover {
+        background-color: #333;
+    }
+    
+    /* Right side text styling */
+    .right-content {
+        position: relative;
+        bottom: 0%;
+        line-height: 50px;
+        left: 0%;
+        text-align: left;
+        font-family: 'DJI Font', sans-serif; /* Ensure the DJI font is imported */
+        max-width: 25%;
+    }
+    
+    .right-content h6 {
+      position: relative;
+      left: 20px;
+        font-size: 1em;
+        color:antiquewhite;
+      
+    }
+    
+    /* Responsive design */
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .center-content, .right-content {
+            max-width: 100%;
+        }
+    
+        .center-content h1 {
+            font-size: 2em;
+        }
+    
+        .center-content p {
+            font-size: 1.2em;
+        }
+    
+        .right-content h3 {
+            font-size: 1.5em;
+        }
+    }
+  /* Wrapper to contain the scrolling images */
+  .scroll-wrapper {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  /* Animating the scroll effect */
+  .scroll {
+    display: inline-flex;
+    animation: scroll 100s linear infinite;
+  }
+
+  /* Repeating the scroll effect */
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+
+  /* Styling individual images */
+  .scroll img {
+    width: auto;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 8px;
+  }
+  .diff{
+    display: flex;
+    position: relative;
+    top: 50px;
+    flex-wrap: wrap;
+    gap: 100px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+  }
+  .cont h1{
+    font-size: 40px;
+  }
+  .img{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .three{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F7F9FA;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+  }

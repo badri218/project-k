@@ -1,0 +1,315 @@
+.fourcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    height: 293.25px;
+   }
+   .four{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 322.5px;
+    height: 304.25px;
+   }
+   .four h6{
+    font-size: 30px;
+
+   }
+   .four p{
+    font-weight: 100;
+    font-size: 14px;
+    text-align: left;
+    color:#333333;
+   }
+   .four button{
+    width: 132.02px;
+    height: 50.5px;
+    font-size: 15px;
+    background-color: #F5F5F5;border-style: hidden;
+   }
+   .thr{
+    width: 329.33px;
+    background-color: #F8F8F8;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .thr h1{
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #6762A6;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+   }
+   .thr h2{
+    position: relative;
+    left: 20px;
+    font-size: 16px;
+    color: #666666;
+   }
+   .prof{
+    position: relative;
+    left: 20px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+   }
+   .dot{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: center;
+   }
+   .dot img{
+    position: relative;
+    left: 200px;
+    width: 70px;
+    height: 21px;
+   }
+   .twocon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px ;
+    height: 500px;
+   }
+   .two{
+    gap: 80px;
+    display: flex;
+    flex-direction: row;
+    height: 226.97px;
+    width: 800px;
+    background-color:#9C91CE;
+    border-radius: 8px;
+    border-style: hidden;
+   }
+   .two-1{
+    gap: 80px;
+    display: flex;
+    flex-direction: row;
+    height: 226.97px;
+    width: 800px;
+    background-color:#EEF0F4;
+    border-radius: 8px;
+    border-style: hidden;
+   }
+   .det{
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+   }
+   .det h1{
+    font-size: 20px;
+    color: #fff;
+   }
+   .det h2{
+    font-size: 14px;
+    color: #EAEAEA;
+    font-weight: 100;
+   }
+   .det img{
+    height: 196.97px;
+    width: 315px;
+   }
+   .det button{
+    height: 38.5px;
+    width: 190.05px;
+    background-color: #6762A6;
+    border-radius: 5px;
+    font-size: 15px;
+    border-style: hidden;
+    color: #fff;
+   }
+   .det-1{
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+   }
+   .det-1 h1{
+    font-size: 20px;
+    color:black;
+   }
+   .det-1 h2{
+    font-size: 14px;
+    color:#333333;
+    font-weight: 100;
+   }
+   .det-1 img{
+    height: 196.97px;
+    width: 315px;
+   }
+   .det-1 button{
+    height: 38.5px;
+    width: 190.05px;
+    background-color: #6762A6;
+    border-radius: 5px;
+    font-size: 15px;
+    border-style: hidden;
+    color: #fff;
+   }
+   .intextbox{
+    height: 500px;
+   }
+   .box{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+   }
+   .box h1{
+    font-size: 16px;
+    color: #6762A6;
+    text-align: center;
+   }
+   .box h2{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+   }
+    .box button{
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      flex-wrap: wrap;
+      border-width: 0.5px;
+      border-color: #C1C1C1;
+      border-radius: 5px;
+      align-content: center;
+      background-color: white;
+      justify-items:left;
+      width: 1100px;
+      height: 65px;
+      font-size: 20px;
+      color: black;
+      font-weight: bold;
+    }
+    .box img{
+      position: relative;
+      left: 20px;
+    }
+    .footer{
+      
+      display: flex;
+      flex-direction: column-reverse;
+      height: 600px;
+      max-width: 100%;
+      background-image: url(fotter.png);
+      background-repeat: no-repeat;
+    }
+    .foot{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: relative;
+      top: -50px;
+      align-content: center;
+      height: 400px;
+      gap: 200px;
+      
+    }
+    .foot-1 h5{
+      display: flex;
+      flex-wrap: nowrap;
+      align-content:flex-start;
+      justify-content: center;
+      color: white;
+      font-size: 16px;
+      position: relative;
+      bottom: 40px;
+    }
+    .div-1{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      position: relative;
+      top: -25px;
+    }
+    .div-1 img{
+      position: relative;
+      left: -20px;
+      width: 295px;
+      height: 86px;
+    }
+    .div-1 h1{
+      font-size: 15px;
+      color: white;
+    }
+    .div-1 h2{
+      font-size: 16px;
+      color: white;
+    }
+    .apps{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    .apps img{
+      width: 50px;
+      height: 50px;
+    }
+    .div-2{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .div-2 h1{
+      color: white;
+      font-size: 24px;
+    }
+    #z{
+      width: 17.44px;
+      height: 17.44px;
+    }
+    .div-2 h2{
+      color: white;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      font-size: 16px;
+    }
+    .div-4{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .div-4 h1{
+      color: white;
+      font-size: 24px;
+    }
+    .div-4 h2{
+      color: white;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      font-size: 16px;
+    }
+    @media(max-width:768px){
+      .div-2{
+        display: none;
+      }
+    }
